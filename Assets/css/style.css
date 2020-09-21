@@ -2,41 +2,11 @@ main {
   width: 1000px ;
   margin: 0 auto;
 }
-.clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.section1 {
-  float: left;
-  width: 300px;
-  margin-top: 20px;
-  text-align: left;
-}
-.section2 {
-  float: left;
-  width: 400px;
-  margin-top: 20px;
-  text-align: left;
-}
-.section3 {
-  float: left;
-  width: 200px;
-  text-align: left;
-  margin-top: 20px ;
-  margin-left: 50px ;
-}
 h1 {
   font-size: 30px;
   color: white;
-  background-color:slategray;
-  font-family: 'Lora', serif;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-  margin-left: -50px;
-  margin-right: -50px;
 }
+
 h2 {
   color: black;
   font-weight: bold;
@@ -52,10 +22,9 @@ body {
 img {
   width: 300px ;
   height: 400px ;
-}
-
-img.mainleft {
-  align-content: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 a {
   color: red;
@@ -64,4 +33,15 @@ a {
 li {
   color: black;
   font-family: 'Lora', serif;
+}
+.jumbotron {
+  background-image: url(../images/banner_2_small.jpg);
+  margin: 25px -200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 20%;
+  color: white;
+}
+.row {
+  padding: 8px;
 }
