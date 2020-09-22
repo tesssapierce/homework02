@@ -45,3 +45,8 @@ li {
 .row {
   padding: 8px;
 }
+
+.container.bottom h1, .container.bottom h2 {
+  position: relative;
+  top: 220px;
+}
