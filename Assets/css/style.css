@@ -5,12 +5,20 @@ main {
 h1 {
   font-size: 30px;
   color: white;
+  font-family: 'Lora', serif;
+}
+h1.jumbo {
+  padding-top: 70px;
+  margin-bottom: -8px;
 }
 
 h2 {
   color: black;
   font-weight: bold;
   font-family: 'Lora', serif;
+}
+h2.jumbo {
+  padding-left: 40px;
 }
 p {
   color: black;
@@ -19,7 +27,7 @@ p {
 body {
   background-color: whitesmoke ;
 }
-img {
+img.main {
   width: 300px ;
   height: 400px ;
   display: block;
@@ -45,9 +53,4 @@ li {
 }
 .row {
   padding: 8px;
-}
-
-.container.bottom h1, .container.bottom h2 {
-  position: relative;
-  top: 220px;
 }
