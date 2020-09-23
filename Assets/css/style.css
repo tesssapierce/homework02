@@ -43,8 +43,8 @@ li {
   font-family: 'Lora', serif;
 }
 .jumbotron {
-  background-image: url(../images/banner_2_small.jpg);
-  margin: 25px -200px;
+  background-image: url(../images/banner_2_small_2.jpg);
+  margin: 25px -100px;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 20%;
@@ -53,4 +53,9 @@ li {
 } 
 .row {
   padding: 8px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
